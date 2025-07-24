@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: paygate
+Stripe:
+  base-url: https://api.stripe.com
+  secret: ${STRIPE_SECRET}

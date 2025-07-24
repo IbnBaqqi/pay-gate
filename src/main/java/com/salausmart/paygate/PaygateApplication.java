@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PaygateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PaygateApplication.class, args);
+		var appContext = SpringApplication.run(PaygateApplication.class, args);
+
+		appContext.getBean(StripeGateway.class).checkout();
 	}
 
 }
