@@ -1,2 +1,2 @@
 ### Initial
-![System Architecture](/v1-paygate.png)
+![System Architecture](/v2-paygate.png)
